@@ -18,3 +18,13 @@ INSERT INTO clientes(nombre, apellido, email, create_at, foto) VALUES('Manuel', 
 INSERT INTO clientes(nombre, apellido, email, create_at, foto) VALUES('Lucia', 'Pineda', 'lucia.pineda@gmail.com', '2018-12-29', '');
 INSERT INTO clientes(nombre, apellido, email, create_at, foto) VALUES('Rafael', 'Santos', 'rafael.santos@hotmail.com', '2019-03-14', '');
 INSERT INTO clientes(nombre, apellido, email, create_at, foto) VALUES('Gabriela', 'Navarro', 'gabriela.navarro@yahoo.com', '2020-07-20', '');
+
+
+/* Populate tabla productos */
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Panasonic Pantalla LCD', '259990', NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Sony Auriculares Bluetooth', '89990', NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Samsung Galaxy S21', '1199900', NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Logitech Ratón inalámbrico', '39990', NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Apple AirPods Pro', '249990', NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Xiaomi Mi Band 6', '59990', NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Google Chromecast', '59990', NOW());
